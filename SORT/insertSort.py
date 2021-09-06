@@ -1,3 +1,4 @@
+
 # 삽입정렬 
 
 '''
@@ -17,6 +18,7 @@ def insertSort(_list):
     
     length = len(_list)
 
+<<<<<<< HEAD
     for idx in range(1,length):
 
         for idx2 in range(idx-1, -1, -1):
@@ -28,6 +30,13 @@ def insertSort(_list):
                 break
         
     return _list
+=======
+    for idx in range(length-1):
+        
+
+
+
+>>>>>>> 0ff3ecdefdfc39c5723fadd88878b4b4c208a55a
 
 print(test_list)
 result = insertSort(test_list)
